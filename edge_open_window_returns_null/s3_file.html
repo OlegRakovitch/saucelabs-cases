@@ -1,0 +1,14 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <script>
+      var win = window.open();
+      var text = "Successfully obtained window object";
+      if (win === null) {
+        text = "Failed to obtain window object";
+      }
+      document.body.innerHTML = text;
+    </script>
+  </body>
+</html>
